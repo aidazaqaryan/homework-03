@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-image: url('../images/see.jpg');
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-size: cover;
+    background-attachment: fixed;
+    f
+    font-family: 'Roboto', sans-serif;
+}
+#navigation {
+    background-color: white;
+    padding-left: 300px;
+}
+img {
+    width: 160px;
+    height: 70px;
+    vertical-align: middle;
+}
+ul, li {
+    display: inline-block;
+}
+.a {
+    color: black;
+    margin-left: 20px;
+    font-size: 15px;
+}
+#header {
+    color: white;
+    margin: 100px 20px 100px 420px;
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.please {
+    display: block;
+    color: black;
+    padding: 16px 40px;
+    background-color: white;
+    margin: 2% 66% 0% 20%;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: normal;
+}
+#body {
+    background-color: #F0F2F8;
+    width: 100%;
+    padding-top: 35px;
+}
+#inside {
+    box-shadow: 0 0 50px rgb(215, 215, 218);
+    background-color: white;
+    margin: 0 auto;
+    width: 46%;
+    font-size: 15px;
+    padding: 40px 40px 0px 40px;
+}
