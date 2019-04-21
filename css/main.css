@@ -1,16 +1,12 @@
 body {
     margin: 0;
-    background-image: url('../images/see.jpg');
-    background-repeat: no-repeat;
-    background-position-y: 40%;
-    background-size: cover;
-    background-attachment: fixed;
-    f
-    font-family: 'Roboto', sans-serif;
 }
 #navigation {
     background-color: white;
-    padding-left: 300px;
+}
+#navigation div {
+    margin: 0 auto;
+    width: 700px;
 }
 img {
     width: 160px;
@@ -20,38 +16,46 @@ img {
 ul, li {
     display: inline-block;
 }
-.a {
+#navigation a {
     color: black;
     margin-left: 20px;
     font-size: 15px;
 }
 #header {
-    color: white;
-    margin: 100px 20px 100px 420px;
-    padding-left: 30px;
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    background-position-y: 30%;
+}
+#header div {
+    margin: 0 auto;
+    width: 500px;
     font-size: 40px;
-    font-weight: bold;
+    color: white;
+    padding: 60px 0;
 }
-.please {
-    display: block;
+#header p {
+    margin-bottom:10px;
+}
+#header a {
     color: black;
-    padding: 16px 40px;
-    background-color: white;
-    margin: 2% 66% 0% 20%;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
-    font-weight: normal;
+    background-color: white;
+    padding: 15px 20px;
+    margin: 0 180px;
+
 }
-#body {
+#footer {
     background-color: #F0F2F8;
-    width: 100%;
-    padding-top: 35px;
+    padding-top: 30px;
 }
-#inside {
+#footer div {
     box-shadow: 0 0 50px rgb(215, 215, 218);
     background-color: white;
     margin: 0 auto;
-    width: 46%;
+    width: 600px;;
     font-size: 15px;
     padding: 40px 40px 0px 40px;
 }
